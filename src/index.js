@@ -1,5 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+/* The benefit of this may not be immediately apparent
+when viewing this project in one .js file. But for
+projects spanning numerous nested components, this
+simple code allows us to pass theme variables through
+dozens of components without prop drilling.
+
+To expand on this you can set up Light/Dark theme
+buttons and allow the user to change theme.
+*/
 
 // normally this would be separated into it's own component wrapper,
 // but for ease of understanding, I left it here.
